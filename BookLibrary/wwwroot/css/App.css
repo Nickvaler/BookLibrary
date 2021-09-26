@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+}
+.mainGrid {
+    margin: 30px;
+    display: grid;
+    grid-row: 1fr 1fr;
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+
+.wrapper {
+    margin: 30px;
+    display: grid;
+    grid-row: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+
+.bookList{
+    margin-right: 20px;
+    text-align: center;
+}
+.addBook{
+    position: fixed;
+    top: 30%;
+    right: 5em;
+    text-align: center;
+}
+.addBook > form > button{
+    margin-top:  10px;
+}
